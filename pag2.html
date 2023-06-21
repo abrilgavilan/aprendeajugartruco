@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Aprende a jugar Truco</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <div>
+          <img class="img" src="./img/logo-center.png" alt="Logo" />
+        </div>
+        <div>
+          <h1>¡APRENDE A JUGAR TRUCO!</h1>
+        </div>
+        <div>
+          <audio id="myAudio" src="./audio/gigigi.mp3"></audio>
+          <img
+            src="./img/sound-high.png"
+            alt="sound"
+            width="30"
+            onclick="document.getElementById('myAudio').play()"
+          />
+        </div>
+      </div>
+    </header>
+    <nav class="navbar">
+      <a href="./index.html">INICIO</a>
+      <a href="./pag1.html">REGLAMENTO</a>
+      <a href="./pag2.html" class="active">¿CÓMO JUGAR?</a>
+    </nav>
+    <main class="main">
+      <section>
+        <article>
+          <h2>¿Cómo se juega al truco?</h2>
+          <p>
+            El juego del truco se inicia cuando jugador reparte tres cartas a
+            cada uno de sus pares, comenzando por el de su derecha, después de
+            haber mezclado las cartas y haberlas ofrecido al de su izquierda
+            para que realizara el "corte". A partir de ese momento, el primero
+            que recibió los naipes pone en marcha la "mano".
+            <br />
+            <br />
+            En el caso de ser solamente dos contendientes, el enfrentamiento es
+            entre ellos y cuando se quedan sin cartas se vuelve a barajar y se
+            cuentan los puntos que determinen un ganador. Quien haya puesto la
+            carta de mayor valía en cada mano es quién deberá arrancar la
+            siguiente.
+            <br />
+            <br />
+            Si la partida de truco se plantea entre grupos más grandes, los
+            participantes estarán intercalados en torno a la mesa por equipos de
+            manera de quedar enfrentados. Comenzado el juego, en la primera
+            vuelta jugarán una carta cada uno y a partir de la segunda mano
+            comenzará quien haya puesto la baraja de mayor valor.
+            <br />
+            <br />
+            Cuando termina la vuelta, el proceso se repite y se cuentan los
+            puntos obtenidos con los cantos de "truco", "envido", "flor" o sus
+            variantes.
+            <br />
+            <br />
+            El último jugador de cada equipo es denominado “pie”, en tanto que
+            el que está a la derecha de quien reparte es “mano” y es quien
+            comenzará la ronda, cuyo ganador será quien gane dos de las tres que
+            pueden jugarse.
+            <br />
+            <br />
+            El "truco" puede cantarse en cualquier momento de la ronda y, si no
+            se lo hace, quien gane se llevará un punto. Una vez que alguien lo
+            acepta, ya no se puede cantar ni flor ni envido.
+            <br />
+            <br />
+            Además, existe una ronda extra en las partidas que juegan seis
+            participantes llamadas "pica-pica". En esa instancia, la competencia
+            es directa entre los participantes de equipos rivales que se
+            encuentran ubicados frente a frente. El "pica pica" suele ser jugado
+            a partir de los 5 puntos y hasta los 25, una ronda de por medio.
+            <br />
+            <br />
+            Por otro lado, tanto en partidas individuales como grupales de truco
+            pueden darse empates, y si eso ocurre en la primera mano, el ganador
+            se definirá en la segunda, o en la tercera si la paridad se
+            mantiene.
+            <br />
+            <br />
+            Si se triunfa en la primera mano, se pierde la segunda y se empata
+            la tercera, el que ganó la primera será el ganador. En cambio, si
+            las tres rondas son empate, gana quien sea mano.
+          </p>
+          <h3>Qué es el Envido</h3>
+          <p>
+            Cuando a un jugador le tocan dos cartas del mismo palo, puede cantar
+            "envido", instancia del juego que tiene por objetivo ganar los
+            puntos sumando el valor de ambas cartas del mismo palo, agregándole
+            20 puntos.
+            <br />
+            <br />
+            El naipe de mayor valor es el 7 mientras que las de menor valor son
+            el 12, 11 y 10 que valen 0 puntos, seguidos del 1, 2, 3, 4, 5 y 6.
+            Por ejemplo, si tiene un siete y una figura de oro deberá cantar 27
+            y si tiene un 1 y un 3 de espadas, 24.
+            <br />
+            <br />
+            "Envido" es lo primero que se canta en una partida. Si se juega de a
+            2, cualquiera puede cantarlo y si se juega de a 4 o 6 personas,
+            quienes están ubicado en el último lugar de cada equipo son los
+            responsables de hacerlo.
+            <br />
+            <br />
+            En el único momento en el que se puede jugar el envido es en la
+            primera mano. Si no se hizo entonces, la oportunidad fue perdida.
+            <br />
+            <br />
+            La puntuación más alta del "envido" es de 33, que se dará teniendo
+            un 7 y un 6 del mismo palo, y las posibles respuestas frente a su
+            planteo pueden ser las siguientes:
+          </p>
+          <ul>
+            <li>
+              No quiero: se rechaza el envido y quien lo haya cantado se lleva
+              los puntos acumulados hasta el momento.
+            </li>
+            <li>
+              Quiero: se acepta el envido y quien tenga más puntos se lleva los
+              puntos.
+            </li>
+            <li>
+              Envido, Real envido, Falta envido: se redobla el envido y el otro
+              equipo o jugador tiene que volver a responder con alguna de las 5
+              opciones mencionadas.
+            </li>
+          </ul>
+          <h3>Cuándo cantar Truco</h3>
+          <div>
+            <p>
+              Tal como ya se indicó, un jugador puede cantar “truco” en
+              cualquier momento de la mano, teniendo en cuenta que va después
+              del "envido" y la "flor", ya que si no se los canta antes, se
+              pierde la posibilidad de hacerlo.
+              <br />
+              <br />
+              Al mencionar la palabra "truco", inmediatamente se considera que
+              esta acción ha comenzado y puede ser respondida de cuatro maneras:
+            </p>
+            <ul>
+              <li>
+                No quiero: se rechaza el truco y el que lo cantó se lleva un
+                punto.
+              </li>
+              <li>
+                Quiero: se acepta el truco y quien gane la ronda se lleva dos
+                puntos.
+              </li>
+              <li>
+                Quiero retruco: se dobla la apuesta y si se quiere, el ganador
+                se lleva tres puntos.
+              </li>
+              <li>
+                Quiero vale cuatro: puede cantarse después del retruco y si es
+                querido, el ganador se lleva cuatro puntos.
+              </li>
+            </ul>
+          </div>
+          <h3>Puntuación que se puede conseguir</h3>
+          <ul>
+            <li>Envido/No quiero: 1 punto.</li>
+            <li>Envido/Quiero: 2 puntos.</li>
+            <li>Real envido/No quiero: 1 punto.</li>
+            <li>Real envido/Quiero: 3 puntos.</li>
+            <li>
+              Falta envido (no puede cantarse en la primera ronda de la partida)
+              /No quiero: 1 punto.
+            </li>
+            <li>
+              Falta envido/Quiero: si ambos jugadores o equipos están en “las
+              malas”, vale la partida. Cuando uno o los dos están en “las
+              buenas”, vale la diferencia del oponente hasta los 30 puntos.
+            </li>
+            <li>Envido+envido/No quiero: 3 puntos.</li>
+            <li>Envido+envido/Quiero: 4 puntos.</li>
+            <li>Envido+real envido/No quiero: 3 puntos.</li>
+            <li>Envido+real envido/Quiero: 5 puntos.</li>
+            <li>Envido+envido+real envido/No quiero: 5 puntos.</li>
+            <li>Envido+envido+real envido/Quiero: 7 puntos.</li>
+          </ul>
+        </article>
+        <aside>
+          <img class="img-100" src="./img/truco-003.jpg" />
+        </aside>
+      </section>
+    </main>
+    <footer>
+      <p>A&L Games</p>
+    </footer>
+  </body>
+</html>

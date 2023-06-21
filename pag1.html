@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Aprende a jugar Truco</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo-container">
+        <div>
+          <img class="img" src="./img/logo-center.png" alt="Logo" />
+        </div>
+        <div>
+          <h1>¡APRENDE A JUGAR TRUCO!</h1>
+        </div>
+        <div>
+          <audio id="myAudio" src="./audio/gigigi.mp3"></audio>
+          <img
+            src="./img/sound-high.png"
+            alt="sound"
+            width="30"
+            onclick="document.getElementById('myAudio').play()"
+          />
+        </div>
+      </div>
+    </header>
+    <nav class="navbar">
+      <a href="./index.html">INICIO</a>
+      <a href="./pag1.html" class="active">REGLAMENTO</a>
+      <a href="./pag2.html">¿CÓMO JUGAR?</a>
+    </nav>
+    <main class="main">
+      <section>
+        <article>
+          <h2>Reglas del Truco</h2>
+          <p>
+            En el truco argentino se utilizan 40 cartas y se puede jugar entre 2
+            contendientes, entre 4 (con dos equipos de dos integrantes) o entre
+            6 (con dos equipos con tres integrantes, en la versión llamada pica-
+            pica).
+            <br />
+            <br />
+            Para ganar el partido hay que llegar a 30 puntos. Los primeros 15
+            son definidos como “las malas” y los segundos 15 como “las buenas”.
+            También hay gente que juega hasta llegar a 15, pero son los menos.
+          </p>
+          <h3>Orden y señas de las cartas</h3>
+          <ul>
+            <li>Ancho de espadas. Seña: levantar las cejas.</li>
+            <li>Ancho de bastos. Seña: guiñar el ojo derecho.</li>
+            <li>7 de espadas. Seña: mover la comisura hacia la derecha.</li>
+            <li>7 de oros. Seña: mover la comisura hacia la izquierda.</li>
+            <li>3 de cualquier palo. Seña: morder el labio inferior.</li>
+            <li>
+              2 de cualquier palo. Seña: llevar los labios hacia adelante como
+              si fuera un beso.
+            </li>
+            <li>
+              1 de copas y 1 de oros. Seña: abrir la boca en forma de "o".
+            </li>
+            <li>
+              12, 11, 10 (todos), 7 de copas y 7 de bastos, 6, 5 y 4 (todos).
+              Seña: cerrar los ojos.
+            </li>
+          </ul>
+        </article>
+        <aside>
+          <img class="img-100" src="./img/truco-002.jpg" />
+        </aside>
+      </section>
+    </main>
+    <footer>
+      <p>A&L Games</p>
+    </footer>
+  </body>
+</html>

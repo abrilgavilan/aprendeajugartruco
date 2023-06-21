@@ -1,0 +1,140 @@
+body {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  color: #fcfcfc;
+  background-color: #fcfcfc;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container > div {
+  flex-grow: 4;
+}
+
+.logo-container > div > .img {
+  width: 150px !important;
+  margin-right: 80px;
+  margin-bottom: 20px;
+}
+
+.logo-container h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #3e0714;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #3e0714;
+  overflow: hidden;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+.navbar a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  flex-grow: 4;
+}
+
+/* Estilos para los enlaces activos de la barra de navegación */
+.navbar a.active {
+  background-color: #7c0f29;
+}
+
+/* Estilos para los enlaces al pasar el cursor por encima */
+.navbar a:hover {
+  background-color: #ba173e;
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+.main {
+  display: flex;
+  flex: 1;
+  margin-top: 20px;
+  background-color: #7c0f29;
+  padding: 10px;
+  text-align: justify;
+  line-height: 2;
+}
+
+section {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+article {
+  flex: 2;
+  margin-right: 50px;
+}
+
+.article h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fcfcfc;
+}
+
+.article h3 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fcfcfc;
+}
+
+.article p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 17px;
+  color: #fcfcfc;
+  text-align: justify;
+  line-height: 2;
+}
+
+.article ul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fcfcfc;
+  font-size: 17px;
+}
+
+.img-100 {
+  width: 100%;
+}
+
+aside {
+  flex: 1;
+  float: right;
+  width: 30%;
+  margin-right: 2px;
+  padding: 10px;
+  background-color: #ba173e;
+  font-size: 2;
+  margin-bottom: 20px;
+}
+
+.aside p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 10px;
+  color: #fcfcfc;
+  text-align: justify;
+  line-height: 2;
+}
+
+footer {
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #7c0f29;
+  border: 1px solid #fcfcfc;
+  color: #fcfcfc;
+  text-align: center;
+  padding: 0px;
+  margin-top: 10px;
+}
