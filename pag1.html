@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" sizes="16x16 32x32 64x64" href="/favicon.ico" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <title>Aprende a jugar Truco</title>
   </head>
@@ -18,14 +23,8 @@
         <div>
           <h1>¡APRENDE A JUGAR TRUCO!</h1>
         </div>
-        <div>
-          <audio id="myAudio" src="./audio/gigigi.mp3"></audio>
-          <img
-            src="./img/sound-high.png"
-            alt="sound"
-            width="30"
-            onclick="document.getElementById('myAudio').play()"
-          />
+        <div class="audio-player-container">
+          <audio src="./audio/Halos_of_Eternity.mp3" controls></audio>
         </div>
       </div>
     </header>
